@@ -1173,7 +1173,7 @@ warszawawpigulce.pl##.eklama
 @@||connect.facebook.*/*/AudienceNetworkPrebid.js$script,domain=cbssports.com
 
 ! https://github.com/NanoMeow/QuickReports/issues/235
-@@||javmost.com/ad$frame,1p
+@@||javmost.com/ads3.php
 @@||javpost.net^$frame,domain=javmost.com
 
 ! https://github.com/uBlockOrigin/uAssets/issues/2043#issuecomment-432499527
@@ -1719,8 +1719,8 @@ downloadsource.*##dl > dt:has-text(Data dodania)
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=antena3.ro
 
 ! https://forums.lanik.us/viewtopic.php?f=64&t=43073&p=147868#p147852
-! [badfilter] ://adv.$domain=~adv.asahi.com|~adv.bet|~adv.cincsys.com|~adv.co.it|~adv.cpa-api.ru|~adv.cryptonetlabs.it|~adv.derfunke.at|~adv.design|~adv.ec|~adv.ee|~adv.gg|~adv.michaelgat.com|~adv.msk.ru|~adv.neosystem.co.uk|~adv.rest|~adv.ru|~adv.tools|~adv.trinet.ru|~adv.ua|~adv.vg|~adv.vn.ua|~adv.works|~adv.yomiuri.co.jp|~advids.co|~erti.se|~escreverdireito.com|~farapp.com|~forex-tv-online.com|~pracuj.pl|~r7.com|~typeform.com|~welaika.com,badfilter
-://adv.$domain=~adv.asahi.com|~adv.bet|~adv.cincsys.com|~adv.co.it|~adv.cpa-api.ru|~adv.chunichi.co.jp|~adv.cr|~adv.cryptonetlabs.it|~adv.derfunke.at|~adv.design|~adv.ec|~adv.ee|~adv.gg|~adv.hokkaido-np.co.jp|~adv.michaelgat.com|~adv.msk.ru|~adv.neosystem.co.uk|~adv.rest|~adv.ru|~adv.tools|~adv.trinet.ru|~adv.ua|~adv.vg|~adv.vn.ua|~adv.works|~adv.yomiuri.co.jp|~advids.co|~erti.se|~escreverdireito.com|~farapp.com|~forex-tv-online.com|~pracuj.pl|~r7.com|~typeform.com|~welaika.com
+! [badfilter] ://adv.$domain=~adv.asahi.com|~adv.bet|~adv.cincsys.com|~adv.co.it|~adv.cpa-api.ru|~adv.cryptonetlabs.it|~adv.derfunke.at|~adv.design|~adv.digimatix.ru|~adv.ec|~adv.ee|~adv.gg|~adv.michaelgat.com|~adv.msk.ru|~adv.neosystem.co.uk|~adv.rest|~adv.ru|~adv.tools|~adv.trinet.ru|~adv.ua|~adv.vg|~adv.vn.ua|~adv.works|~adv.yomiuri.co.jp|~advids.co|~erti.se|~escreverdireito.com|~farapp.com|~forex-tv-online.com|~pracuj.pl|~r7.com|~typeform.com|~welaika.com,badfilter
+://adv.$domain=~adv.asahi.com|~adv.bet|~adv.cincsys.com|~adv.co.it|~adv.cpa-api.ru|~adv.chunichi.co.jp|~adv.cr|~adv.cryptonetlabs.it|~adv.derfunke.at|~adv.design|~adv.digimatix.ru|~adv.ec|~adv.ee|~adv.gg|~adv.hokkaido-np.co.jp|~adv.michaelgat.com|~adv.msk.ru|~adv.neosystem.co.uk|~adv.rest|~adv.ru|~adv.tools|~adv.trinet.ru|~adv.ua|~adv.vg|~adv.vn.ua|~adv.works|~adv.yomiuri.co.jp|~advids.co|~erti.se|~escreverdireito.com|~farapp.com|~forex-tv-online.com|~pracuj.pl|~r7.com|~typeform.com|~welaika.com
 
 ! https://github.com/uBlockOrigin/uAssets/issues/5688
 ! [badfilter] ||amazonaws.com^*/funders-$domain=globalvoices.org,badfilter
@@ -4176,3 +4176,16 @@ unito.life##+js(acis, KeenTracking)
 
 ! newsweek.com broken inline video
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=newsweek.com
+
+! https://www.reddit.com/r/uBlockOrigin/comments/ojxi5i/all_townsquare_media_sites_disappear_when_the/
+||google-analytics.com/analytics.js$script,redirect-rule=noopjs,domain=hudsonvalleypost.com|seacoastcurrent.com|popcrush.com,important
+||googletagmanager.com/gtm.js$script,redirect-rule=noopjs,domain=hudsonvalleypost.com|seacoastcurrent.com|popcrush.com,important
+
+! techrepublic.com - videos broken
+! https://github.com/uBlockOrigin/uAssets/issues/8616#issuecomment-880733450
+@@||s0.2mdn.net/instream/html5/ima3.js$script,domain=techrepublic.com
+
+! https://www.reddit.com/r/uBlockOrigin/comments/o44syz/
+! https://www.reddit.com/r/uBlockOrigin/comments/ol5q56/
+@@||google-analytics.com/analytics.js$script,3p,redirect-rule,domain=k2radio.com|kowb1290.com|koel.com|loudwire.com
+@@||googletagmanager.com/gtm.js$script,3p,redirect-rule,domain=k2radio.com|kowb1290.com|koel.com|loudwire.com
